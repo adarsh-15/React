@@ -70,7 +70,7 @@ app.post('/client', (req, res) => {
     // setup email data with unicode symbols
   let mailOptions = {
       from: '"Shree Krishna Residency" <ds8693037047@gmail.com>', // sender address
-      to: 'singhadarsh50@gmail.com', // list of receivers
+      to: 'dsuirn@gmail.com', // list of receivers
       subject: 'Node Contact Request', // Subject line
       text: 'Hello world?', // plain text body
       html: output // html body
